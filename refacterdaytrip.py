@@ -13,7 +13,7 @@ print(welcome_message)
 def pick_feature(array_of_features):
     random_feature = random.choice(array_of_features)
     user_input = input(
-        f"What do you of {random_feature} as a good pick? 'yes' or'no': ")
+        f"What do you think of {random_feature} as a good pick? 'yes' or'no': ")
     while user_input != "yes":
         random_feature = random.choice(array_of_features)
         user_input = input(f"Do you think {random_feature} is a better pick? ")
